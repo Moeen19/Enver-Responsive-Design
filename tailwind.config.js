@@ -7,6 +7,7 @@ module.exports = {
         'cbg': 'rgba(84, 84, 212, 0.10)',
         'cbgr':'rgba(240, 64, 55, 0.10)',
         'cbgy': 'rgba(254, 220, 90, 0.10)',
+        'cbgg': 'rgba(30, 30, 32, 0.50)',
       },
       textColor: {
         'custom': 'rgba(255, 255, 255, 0.70)',
