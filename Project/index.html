@@ -12,107 +12,123 @@
     <!--MAIN-->
     <div class="max-w-[1440px] w-full relative mx-auto flex flex-col items-center overflow-x-hidden">
         <!-- Header -->
-        <div class="flex items-center justify-between mt-[42px] max-w-[1200px] mx-auto w-full">
+        <div class="flex items-center justify-between mt-[42px] sm:max-w-[327px] sm:justify-between sm:w-full md:max-w-[1200px] mx-auto md:w-full">
             <div class="max-w-[132px] w-full flex gap-[8px]">
                 <img class="w-[40px] h-[40px]" src="images/Logo Icon 1.svg" alt="">
                 <h1 class="text-[#fff] max-w-[84px] w-full h-[39px] font-montserrat text-[28px] font-bold leading-[140%]">Enver</h1>
             </div>
-            <div class="max-w-[401px] w-full flex gap-[40px]">
+            <div class="max-w-[401px] sm:hidden md:flex w-full flex gap-[40px]">
                 <p class="font-nunito-sans text-[18px] cursor-pointer text-[#5454D4] hover:text-[white] font-medium leading-normal tracking-[-0.5px]">Home</p>
                 <p class="text-[18px] font-normal cursor-pointer hover:text-[red] leading-normal font-nunito-sans text-custom">Services</p>
                 <p class="text-[18px] font-normal cursor-pointer hover:text-[red]  leading-normal font-nunito-sans text-custom">Our Project</p>
                 <p class="text-[18px] font-normal cursor-pointer hover:text-[red]  leading-normal font-nunito-sans text-custom">About Us</p>
             </div>
-            <div class="w-[157px] flex items-center border-[1px] border-white rounded-[5px] justify-center hover:bg-gray-800">
+            <div class="w-[157px] sm:hidden md:flex flex items-center  border-[1px] border-white rounded-[5px] justify-center hover:bg-gray-800">
                 <button class="w-[141px] h-[44px] rounded-[5px]">
                     <p class="max-w-[141px] w-full h-[22px] tracking-[-0.5px] leading-normal text-[16px] text-center font-nunito-sans text-[#fff]">Contact us</p>
                 </button>
             </div>
+            <div class="sm:visible md:hidden">
+                <img src="images/Sort.svg" alt="">
+            </div>
         </div>
 
         <!-- Gradient 1-->
-        <div class="gradient1 blur-[150px] top-[-110px] left-[17px] filter absolute max-w-[467px] overflow-hidden w-full h-[1233.793px] transform rotate-[-54.374deg] rounded-[233.5px]"></div>
+        <div class="gradient1 sm:hidden md:flex blur-[150px] top-[-110px] left-[17px] filter absolute max-w-[467px] overflow-hidden w-full h-[1233.793px] transform rotate-[-54.374deg] rounded-[233.5px]"></div>
+        <!-- Gradient Responsive-->
+        <div class="gradient1 absolute blur-[150px] top-[-55px] left-[-10px] sm:visible md:hidden max-w-[252.366px] w-full h-[666.74px] transform rotate-[-41.342deg] rounded-[233.5px]"></div>
 
         <!-- Gradient yellow -->
-        <div class="gradient2 absolute top-[10px] right-[-20px] overflow-hidden max-w-[467px] w-full blur-[150px] h-[1399.298px] transform rotate-[65.712deg] rounded-[233.5px]"></div>
+        <div class="gradient2 sm:hidden md:flex absolute top-[10px] right-[-20px] overflow-hidden max-w-[467px] w-full blur-[150px] h-[1399.298px] transform rotate-[65.712deg] rounded-[233.5px]"></div>
+        <!--Gradient Yellow Responsive-->
+        <div class="gradientres top-[500px] max-w-[215.168px] sm:visible absolute md:hidden w-full h-[644.721px] transform rotate-[44.85deg] rounded-[233.5px] blur-[150px]"></div>
 
         <!-- Section 1 -->
-        <div class="flex max-w-[1200px] w-full gap-[32px]">
-            <div class="max-w-[582px] w-full">
-                <h1 class="max-w-[582px] mt-[230px] mb-[24px] w-full text-[80px] font-montserrat text-[#fff] font-extrabold leading-[84px]">Build Your Awesome Platform</h1>
-                <p class="max-w-[536px] mb-[50px] w-full text-custom font-normal font-nunito-sans text-[21px] leading-[39px] tracking-[-0.657px]">Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</p>
-                <button class="flex items-center hover:bg-[gray] justify-center gap-[8px] max-w-[204px] w-full h-[58px] rounded-[4px] bg-[#5454D4]">
+        <div class="md:flex md:flex-row max-w-[1200px] sm:justify-center sm:flex-wrap sm:flex sm:flex-col md:flex-nowrap w-full gap-[32px]">
+            <div class="md:max-w-[582px] md:items-start sm:flex sm:flex-col sm:items-center md:flex-none md:w-full">
+                <h1 class="md:max-w-[582px] sm:max-w-[327px] sm:w-full sm:text-[42px] sm:leading-[62px] md:mt-[230px] sm:mt-[66px] mb-[24px] md:w-full md:text-[80px] font-montserrat text-[#fff] font-extrabold md:leading-[84px]">Build Your Awesome Platform</h1>
+                <p class="md:max-w-[536px] mb-[50px] md:w-full text-custom font-normal font-nunito-sans md:text-[21px] md:leading-[39px] md:tracking-[-0.657px] sm:text-[16px] sm:leading-[150%] sm:max-w-[327px] w-full">Enver studio is a digital studio that offers several services such as UI/UX Design to developers, we will provide the best service for those of you who use our services.</p>
+                <button class="flex sm:self-start sm:ml-[22px] md:ml-0 items-center hover:bg-[gray] justify-center gap-[8px] max-w-[204px] w-full h-[58px] sm:rounded-none md:rounded-[4px] bg-[#5454D4]">
                     <p class="text-[#fff] font-nunito-sans text-[20px] font-medium leading-normal">Our Services</p>
                     <img class="w-[24px] h-[24px]" src="images/arrow-right-up.svg" alt="">
                 </button>
             </div>
-            <div class="max-w-[780px] w-full h-[780px] mt-[130px]">
-                <img class="relative right-[-68px]" src="images/Group 162549.svg" alt="">
+            <div class="relative sm:hidden md:flex max-w-[585px] w-full">
+                <img class="max-w-[780px] w-full h-[780px] mt-[130px]" src="images/Group 162549.svg" alt="">
+                <img class="absolute top-[184px] right-[3px]" src="images/Group 162526.svg" alt="">
+                <img class="absolute top-[231px] right-[513px]" src="images/Vector 13.svg" alt="">
+                <img class="absolute right-[598px] top-[675px]" src="images/Group 162527.svg" alt="">
+                <img class="absolute right-[0px] top-[730px]" src="images/add.png" alt="">
             </div>
-            <img class="absolute top-[231px] left-[652px] w-[95px] h-[28px]" src="images/Vector 13.svg" alt="">
-            <img class="absolute left-[614px] top-[710px]" src="images/Group 162527.svg" alt="">
-            <img class="absolute top-[184px] right-[120px]" src="images/Group 162526.svg" alt="">
-            <img class="absolute top-[716px] right-[107px]" src="images/add.png" alt="">
+            <div class="relative sm:visible md:hidden mb-[40px] max-w-[527px] w-full">
+                <img class="max-w-[572px] w-full h-[472px]" src="images/Group 162549.svg" alt="">
+                <img class="absolute top-[40px] right-[41px]" src="images/circlesmall.svg" alt="">
+                <img class="absolute top-[65px] left-[24px]" src="images/vectorsmall.svg" alt="">
+                <img class="absolute right-[50px] top-[388px]" src="images/addsmall.png" alt="">
+                <img class="absolute left-[24px] top-[400px]" src="images/playsmall.svg" alt="">
+            </div>
         </div>
 
 
         <!-- Text -->
-        <div class="flex mb-[50px] mt-[20px] gap-[24px]">
-            <div class="max-w-[588px] w-full"><h1 class="text-[#fff] font-nunito-sans text-[60px] font-[800] leading-[70px]">Why Enver Is The Best Choice?</h1></div>
-            <div class="max-w-[588px]"><p class="text-custom font-nunito-sans text-[21px] leading-[39px] tracking-[-0.657px] font-extralight">Watch this one minute video so you understand why you should use our services!</p></div>
+        <div class="flex flex-wrap sm:justify-center md:flex-nowrap lg:justify-normal mb-[50px] mt-[20px] sm:gap-[30px] md:gap-[24px]">
+            <div class="md:max-w-[588px] md:w-full sm:max-w-[327px] sm:w-full"><h1 class="text-[#fff] font-nunito-sans md:text-[60px] md:font-[800] sm:text-[36px] sm:leading-[150%] sm:font-bold md:leading-[70px]">Why Enver Is The Best Choice?</h1></div>
+            <div class="md:max-w-[588px] md:w-full sm:max-w-[327px] sm:w-full"><p class="text-custom font-nunito-sans sm:text-[16px] sm:leading-[150%] sm:font-extralight md:text-[21px] md:leading-[39px] md:tracking-[-0.657px] md:font-extralight">Watch this one minute video so you understand why you should use our services!</p></div>
         </div>
 
         <!-- Video -->
-        <div class="relative max-w-[1200px] mb-[150px] w-full">
-            <img src="images/image 4.png" alt="">
-            <img class="absolute top-[273px] left-[538px]" src="images/Play.svg" alt="">
+        <div class="relative md:max-w-[1200px] sm:mb-[140px] md:mb-[150px] md:w-full">
+            <img class="sm:hidden md:visible" src="images/image 4.png" alt="">
+            <img class="sm:visible md:hidden" src="images/small.png" alt="">
+            <img class="absolute sm:hidden md:visible md:top-[273px] md:left-[538px]" src="images/Play.svg" alt="">
+            <img class="absolute sm:top-[72px] md:hidden sm:left-[144px]" src="images/small2.svg" alt="">
         </div>
 
         <!-- Gradient -->
-        <div class="gradient3 absolute top-[1793px] overflow-hidden left-[-193px] max-w-[467px] w-full h-[508.495px] transform rotate-[-54.374deg] rounded-[233.5px] blur-[150px]"></div>
+        <div class="gradient3 sm:hidden md:flex absolute top-[1793px] overflow-hidden left-[-193px] max-w-[467px] w-full h-[508.495px] transform rotate-[-54.374deg] rounded-[233.5px] blur-[150px]"></div>
 
         <!-- Cards -->
-        <div class="relative mb-[150px] w-full flex flex-col items-center gap-[50px]">
+        <div class="relative sm:mb-[140px] md:mb-[150px] w-full flex flex-col items-center gap-[50px]">
             <div>
-                <h1 class="max-w-[695px] w-full mx-auto text-[#fff] font-nunito-sans text-[60px] leading-[70px] font-bold text-center">The Service We Provide For You</h1>
+                <h1 class="md:max-w-[695px] sm:max-w-[327px] sm:w-full sm:text-[36px] sm:text-start sm:font-bold sm:leading-[54px] md:w-full mx-auto text-[#fff] font-nunito-sans md:text-[60px] md:leading-[70px] md:font-bold md:text-center">The Service We Provide For You</h1>
             </div>
-            <div class="grid grid-cols-3  gap-x-[18px] max-w-[1200px] w-full gap-y-[18px]">
-                <div class=" h-[300px] max-w-[384px] w-full flex flex-col justify-center items-center gap-[20px]">
+            <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-x-[18px] max-w-[1200px] w-full gap-y-[18px]">
+                <div class=" h-[300px] 2xl:max-w-[384px] 2xl:w-full flex flex-col justify-center items-center gap-[20px]">
                     <div class="w-[69px] bg-cbg rounded-[50%] h-[69px] flex items-center justify-center">
                         <img class="w-[32px] h-[32px]" src="images/code.svg" alt="">
                     </div>
-                    <h3 class="max-w-[199px] w-full font-nunito-sans text-[28px] text-[#fff] font-medium leading-normal tracking-[-0.75px] text-center">Development</h3>
+                    <h3 class="max-w-[199px]  w-full font-nunito-sans text-[28px] text-[#fff] font-medium leading-normal tracking-[-0.75px] text-center">Development</h3>
                     <p class="max-w-[299px] w-full text-custom font-nunito-sans text-[20px] font-normal leading-[28px] tracking-[-0.5px] text-center">Create a platform with the best <br> and coolest quality from us.</p>
                 </div>
-                <div class="max-w-[384px] h-[300px] w-full flex flex-col justify-center items-center gap-[20px]">
+                <div class="2xl:max-w-[384px] h-[300px] 2xl:w-full flex flex-col justify-center items-center gap-[20px]">
                     <div class="w-[69px] bg-cbgr rounded-[50%] h-[69px] flex items-center justify-center">
                         <img class="w-[32px] h-[32px]" src="images/layer.svg" alt="">
                     </div>
                     <h3 class="max-w-[199px] w-full font-nunito-sans text-[28px] text-[#fff] font-medium leading-normal tracking-[-0.75px] text-center">UI/UX Designer</h3>
                     <p class="max-w-[299px] w-full text-custom font-nunito-sans text-[20px] font-normal leading-[28px] tracking-[-0.5px] text-center">We provide UI/UX Design services, and of course with the best quality</p>
                 </div>
-                <div class="max-w-[384px] h-[300px] w-full flex flex-col justify-center items-center gap-[20px]">
+                <div class="2xl:max-w-[384px] h-[300px] 2xl:w-full flex flex-col justify-center items-center gap-[20px]">
                     <div class="w-[69px] bg-cbgy rounded-[50%] h-[69px] flex items-center justify-center">
                         <img class="w-[32px] h-[32px]" src="images/code2.svg" alt="">
                     </div>
                     <h3 class="max-w-[210px] w-full font-nunito-sans text-[28px] text-[#fff] font-medium leading-normal tracking-[-0.75px] text-center">Graphic Designer</h3>
                     <p class="max-w-[299px] w-full text-custom font-nunito-sans text-[20px] font-normal leading-[28px] tracking-[-0.5px] text-center">We provide Graphic Design services, with the best designers</p>
                 </div>
-                <div class="max-w-[384px] h-[300px] w-full flex flex-col justify-center items-center gap-[20px]">
+                <div class="2xl:max-w-[384px] h-[300px] 2xl:w-full flex flex-col justify-center items-center gap-[20px]">
                     <div class="w-[69px] bg-cbgy rounded-[50%] h-[69px] flex items-center justify-center">
                         <img class="w-[32px] h-[32px]" src="images/code3.svg" alt="">
                     </div>
                     <h3 class="max-w-[199px] w-full font-nunito-sans text-[28px] text-[#fff] font-medium leading-normal tracking-[-0.75px] text-center">Motion Graphik</h3>
                     <p class="max-w-[299px] w-full text-custom font-nunito-sans text-[20px] font-normal leading-[28px] tracking-[-0.5px] text-center">Create a platform with the best <br> and coolest quality from us.</p>
                 </div>
-                <div class="max-w-[384px] h-[300px] w-full flex flex-col justify-center items-center gap-[20px]">
+                <div class="2xl:max-w-[384px] h-[300px] 2xl:w-full flex flex-col justify-center items-center gap-[20px]">
                     <div class="w-[69px] bg-cbg rounded-[50%] h-[69px] flex items-center justify-center">
                         <img class="w-[32px] h-[32px]" src="images/camera.svg" alt="">
                     </div>
                     <h3 class="max-w-[199px] w-full font-nunito-sans text-[28px] text-[#fff] font-medium leading-normal tracking-[-0.75px] text-center">Photography</h3>
                     <p class="max-w-[299px] w-full text-custom font-nunito-sans text-[20px] font-normal leading-[28px] tracking-[-0.5px] text-center">We provide Photography services, and of course with the best quality</p>
                 </div>
-                <div class="max-w-[384px] h-[300px] w-full flex flex-col justify-center items-center gap-[20px]">
+                <div class="2xl:max-w-[384px] h-[300px] 2xl:w-full flex flex-col justify-center items-center gap-[20px]">
                     <div class="w-[69px] bg-cbgr rounded-[50%] h-[69px] flex items-center justify-center">
                         <img class="w-[32px] h-[32px]" src="images/video-play.svg" alt="">
                     </div>
@@ -120,20 +136,23 @@
                     <p class="max-w-[299px] w-full text-custom font-nunito-sans text-[20px] font-normal leading-[28px] tracking-[-0.5px] text-center">Create a platform with the best <br> and coolest quality from us.</p>
                 </div>
             </div>
-            <img class="absolute top-[-30px] left-[180px]" src="images/Group 162528.svg" alt="">
-            <img class="w-[42px] absolute left-[1275px] top-[87px] h-[42px] transform rotate-[-31.418deg]" src="images/add.png" alt="">
+            <img class="absolute sm:hidden md:flex md:top-[-32px] md:left-[180px]" src="images/Group 162528.svg" alt="">
+            <img class="absolute sm:visible md:hidden left-[20px] top-[-75px]" src="images/playsmall.svg" alt="">
+            <img class="w-[42px] sm:hidden md:flex absolute right-[120px] top-[87px] h-[42px] transform rotate-[-31.418deg]" src="images/add.png" alt="">
+            <img class="absolute sm:visible md:hidden right-[10px] top-[92px]" src="images/addsmall.png" alt="">
+            <img class="absolute sm:hidden md:flex w-[42px] h-[42px] left-[101px] bottom-[-38px] transform rotate-[25.344deg]" src="images/add.png" alt="">
+            <img class="absolute sm:visible md:hidden left-[24px] bottom-[-17px]" src="images/addsmall.png" alt="">
         </div>
-            <img class="absolute w-[42px] h-[42px] left-[100px] top-[2850px] transform rotate-[25.344deg]" src="images/add.png" alt="">
 
         <!-- Gradient -->
         <div class="gradient4 absolute top-[1378px] max-w-[860.002px] w-full h-[2576.87px] transform rotate-[65.712deg] rounded-[233.5px] blur-[150px]"></div>
 
         <!-- Cards 2 -->
-        <div class="max-w-[1200px] w-full mb-[169px] relative">
-            <div class="mb-[70px]">
-                <h1 class="text-[#fff] font-nunito-sans text-[58px] font-bold leading-normal">Our Awesome Portfolio</h1>
+        <div class="max-w-[1200px] relative sm:flex sm:flex-col sm:items-center md:flex-none w-full sm:mb-[140px] md:mb-[169px]">
+            <div class="md:mb-[70px] sm:mb-[50px] md:max-w-[1200px] md:w-full sm:max-w-[327px] sm:w-full">
+                <h1 class="text-[#fff] font-nunito-sans md:text-[58px] sm:text-[36px] sm:font-semibold sm:leading-[150%] md:font-bold md:leading-normal">Our Awesome Portfolio</h1>
             </div>
-            <div class="flex gap-[24px]">
+            <div class="flex sm:hidden md:max-w-[1200px] md:w-full md:flex gap-[24px]">
                 <div class="max-w-[384px] mb-[174px] h-[301px] w-full rounded-[14px] flex items-center justify-center bg-[#1E1E20]">
                     <img class="w-[336px] h-[253px]" src="images/squid.png" alt="">
                 </div>
@@ -144,30 +163,46 @@
                     <img class="w-[336px] h-[253px]" src="images/image 30.png" alt="">
                 </div>
             </div>
-            <img class="absolute left-[565px]" src="images/nav.svg" alt="">
-            <img class="h-[72.941px] w-[62px] top-[35px] right-[43px]  absolute" src="images/Group 162529.svg" alt="">
+            <div class="max-w-[384px] mb-[50px] sm:visible md:hidden h-[301px] w-full rounded-[14px] flex items-center justify-center bg-[#1E1E20]">
+                <img class="w-[336px] h-[253px]" src="images/squid.png" alt="">
+            </div>
+            <div class="sm:visible md:hidden flex  gap-[12.7px]">
+                <div class="w-[38.211px] h-[38.211px] rounded-[50%] flex items-center justify-center bg-rbg">
+                    <img src="images/chevron-right.svg" alt="">
+                </div>
+                <div class="w-[38.211px] h-[38.211px] rounded-[50%] flex items-center justify-center bg-[#5454D4]">
+                    <img src="images/left.svg" alt="">
+                </div>  
+            </div>
+            <img class="absolute left-[565px] top-[627px] sm:hidden md:flex" src="images/nav.svg" alt="">
+            <img class="h-[72.941px] w-[62px] sm:hidden md:flex top-[35px] right-[43px]  absolute" src="images/Group 162529.svg" alt="">
+            <img class="absolute sm:hidden md:flex  left-[-58px] top-[633px]" src="images/Vector 13.svg" alt="">
+            <img class="absolute sm:visible md:hidden left-[33px] top-[586px]" src="images/vectorsmall.svg" alt="">
         </div>
-            <img class="absolute left-[74px] top-[3620px]" src="images/Vector 13.svg" alt="">
+        
+            
         
         <!--Gradient-->
         <div class="gradient5  blur-[150px] max-w-[599.578px] absolute top-[2825px] right-[-283px] w-full h-[652.853px] rounded-[233.5px] transform rotate-[65.712deg]"></div>
 
         <!-- Last Section -->
         <div class="w-full bg-cbgg mb-[50px]">
-            <div class="flex relative max-w-[1440px] w-full h-[506px] gap-[173px] justify-center items-center">
+            <div class="md:flex md:flex-row sm:flex sm:flex-col sm:items-center relative md:max-w-[1440px] md:w-full h-[506px] md:gap-[173px] sm:gap-[50px] justify-center items-center">
                 <div>
-                    <h1 class="text-[#fff] max-w-[826px] w-full font-nunito-sans text-[60px] font-bold leading-normal">Contact us for the service you want to use</h1>
+                    <h1 class="text-[#fff] md:max-w-[826px] md:w-full font-nunito-sans md:text-[60px] sm:max-w-[327px] sm:w-full sm:text-[36px] sm:font-bold sm:leading-[150%]  md:font-bold md:leading-normal">Contact us for the service you want to use</h1>
                 </div>
-                <div>
+                <div class="sm:flex sm:self-start md:m-0 md:self-center md:flex-none sm:ml-[26px]">
                     <button class="w-[201px] h-[60px] rounded-[5px] hover:bg-[gray] bg-[#5454D4] text-white flex items-center"><p class="max-w-[201px] w-full text-[21px] font-semibold leading-normal font-nunito-sans">Contact us</p></button>
                 </div>
-                <img class="absolute top-[69px] right-[130px]" src="images/add.png" alt="">
-                <img class="absolute bottom-[64px] left-[158px]" src="images/Group 162531.svg" alt="">
+                <img class="absolute md:top-[69px] sm:hidden md:flex md:right-[130px]" src="images/add.png" alt="">
+                <img class="absolute md:bottom-[64px] sm:hidden md:flex  md:left-[158px]" src="images/Group 162531.svg" alt="">
+                <img class="absolute top-[12px] sm:visible md:hidden right-[29px]" src="images/addsmall.png" alt="">
+                <img class=" bottom-[11.68px] sm:visible md:hidden absolute left-[9px]" src="images/circlesmall.svg" alt="">
             </div>
         </div>
 
         <!-- Footer -->
-        <div class="max-w-[1200px] w-full flex items-center justify-center mb-[101px]">
+        <div class="max-w-[1200px] sm:hidden md:flex w-full items-center justify-center mb-[101px]">
             <div class="flex mr-[252px] gap-[8px] items-center max-w-[132px] w-full">
                 <a href=""><img class="w-[40px] h-[40px]" src="images/Logo Icon 1.svg" alt=""></a>
                 <a href=""><h1 class="text-[#fff] max-w-[84px] w-full h-[39px] font-montserrat text-[28px] font-bold leading-[140%]">Enver</h1></a>
@@ -179,6 +214,20 @@
             </div>
             <div class="max-w-[285px] w-full text-custom text-right font-nunito-sans text-[16px] font-medium leading-[38px] tracking-[-0.5px]">
                 <p>&copy; 2020 Enver, All Rights Reserved</p>
+            </div>
+        </div>
+        <div class="max-w-[269px] flex-col  gap-[40px] sm:visible md:hidden w-full flex items-center justify-center mb-[101px]">
+            <div class="flex gap-[8px] items-center max-w-[132px] w-full">
+                <a href=""><img class="w-[40px] h-[40px]" src="images/logosmall.png" alt=""></a>
+                <a href=""><h1 class="text-[#fff] max-w-[84px] w-full h-[39px] font-montserrat text-[28px] font-bold leading-[140%]">Enver</h1></a>
+            </div>
+            <div class="max-w-[185px] flex flex-col gap-[40px] w-full text-custom items-center font-nunito-sans text-[18px] font-medium leading-[28px] transform capitalize">
+                <p class="hover:text-[red] cursor-pointer w-[69px]">Support</p>
+                <p class="hover:text-[red] cursor-pointer w-[116px]">Privacy Policy</p>
+                <p class="hover:text-[red] cursor-pointer w-[185px]">Terms and Conditions</p>
+            </div>
+            <div class="max-w-[269px] w-full text-center text-white font-nunito-sans text-[16px] font-normal leading-[28px]">
+                <p>&copy;2020 Enver, All Rights Reserved</p>
             </div>
         </div>
     </div>
