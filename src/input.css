@@ -2,12 +2,3 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:opsz@6..12&display=swap');
-
-@font-face {
-    font-family: "GraphikBold";
-    src: url("../Project/assets/GraphikBold.otf");
-}
-
