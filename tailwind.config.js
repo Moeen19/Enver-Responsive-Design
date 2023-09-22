@@ -36,8 +36,8 @@ module.exports = {
         nunito: ['Nunito Sans', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
         'graphik-bold': ['GraphikBold', 'sans-serif'],
-        'primary': ['Poppins']
-      }
+        'primary': ['Poppins'],
+      },
     },
   },
   plugins: [],
