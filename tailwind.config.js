@@ -33,10 +33,11 @@ module.exports = {
         'custom': 'rgba(255, 255, 255, 0.70)',
       },
       fontFamily: {
-        'montserrat': ['Montserrat', 'sans-serif'],
-        'nunito-sans': ['"Nunito Sans"', 'sans-serif'],
-        'graphik': ['Graphik', 'sans-serif'],
-      },
+        nunito: ['Nunito Sans', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        'graphik-bold': ['GraphikBold', 'sans-serif'],
+        'primary': ['Poppins']
+      }
     },
   },
   plugins: [],
