@@ -14,10 +14,10 @@
       rel="stylesheet"
     />
   </head>
-  <body class="w-full bg-[#19191B] mx-auto overflow-x-hidden p-8">
+  <body class="w-full bg-[#19191B] mx-auto">
     <!--MAIN-->
     <div
-      class="max-w-[1440px] w-full relative mx-auto flex flex-col items-center overflow-x-hidden"
+      class="w-full overflow-hidden p-8 relative mx-auto flex flex-col items-center"
     >
       <!-- Header -->
       <div
@@ -70,9 +70,9 @@
       </div>
 
       <!-- Section 1 -->
-
+      <div class="max-w-[1440px] w-full relative">
       <div
-        class="md:mb-[100px] lg:mb-0 md:flex md:flex-row max-w-[1200px] md:items-start sm:items-center sm:justify-center sm:flex-wrap sm:flex sm:flex-col md:flex-nowrap w-full gap-[32px]"
+        class="md:mb-[100px] mx-auto lg:mb-0 md:flex md:flex-row max-w-[1200px] md:items-start sm:items-center sm:justify-center sm:flex-wrap sm:flex sm:flex-col md:flex-nowrap w-full gap-[32px]"
       >
         <div
           class="lg:max-w-[582px] md:max-w-[400px] lg:items-start sm:flex sm:flex-col sm:items-center lg:flex-none md:w-full"
@@ -166,9 +166,19 @@
         ></div>
         <!-- Gradient yellow -->
         <div
-          class="gradient2 sm:hidden md:flex absolute top-[10px] right-[221px] overflow-visible max-w-[467px] w-full blur-[150px] h-[70vh] transform rotate-[65.712deg] rounded-[233.5px]"
+          class="gradient2 sm:hidden md:flex absolute top-[145px] right-[230px] overflow-visible max-w-[467px] w-full blur-[150px] h-[70vh] transform rotate-[65.712deg] rounded-[233.5px]"
+        ></div>
+
+        <!-- Gradient Responsive-->
+        <div
+          class="gradient1 absolute blur-[150px] top-[-55px] left-[-10px] sm:visible md:hidden max-w-[252.366px] w-full h-[50vh] transform rotate-[-41.342deg] rounded-[233.5px]"
+        ></div>
+        <!--Gradient Yellow Responsive-->
+        <div
+          class="gradientres top-[500px] max-w-[215.168px] sm:visible absolute md:hidden w-full h-[644.721px] transform rotate-[44.85deg] rounded-[233.5px] blur-[150px]"
         ></div>
       </div>
+    </div>
 
       <!-- Text -->
       <div
@@ -215,7 +225,7 @@
 
       <!-- Cards -->
       <div
-        class="relative sm:mb-[140px] md:mb-[150px] w-full flex flex-col items-center gap-[50px]"
+        class="relative max-w-[1440px] sm:mb-[140px] md:mb-[150px] w-full flex flex-col items-center gap-[50px]"
       >
         <div>
           <h1
@@ -381,6 +391,14 @@
           src="images/addsmall.png"
           alt=""
         />
+        <!-- Gradient 3 -->
+        <div
+          class="gradient3 sm:hidden  md:flex absolute md:top-[-239px] overflow-hidden md:left-[-52px] max-w-[467px] w-full h-[40vh] transform rotate-[-54.374deg] rounded-[233.5px] blur-[150px]"
+        ></div>
+        <!-- Gradient 4 -->
+        <div
+          class="gradient4 absolute top-[10px] left-[255px] max-w-[860.002px] w-full h-[1117.86px] transform rotate-[65.712deg] rounded-[233.5px] blur-[150px]"
+        ></div>
       </div>
 
       <!-- Cards 2 -->
@@ -452,12 +470,16 @@
           src="images/vectorsmall.svg"
           alt=""
         />
+        <!--Gradient 5-->
+        <div
+          class="gradient5 blur-[150px] max-w-[599.578px] absolute top-[-244px] right-[-183px] w-full h-[652.853px] rounded-[233.5px] transform rotate-[65.712deg]"
+        ></div>
       </div>
 
       <!-- Last Section -->
       <div class="w-full bg-cbgg mb-[50px]">
         <div
-          class="md:flex md:text-center md:max-w-[826px] sm:max-w-[327px] w-full md:h-[70vh] lg:text-start lg:flex-row sm:flex sm:flex-col md:flex-col sm:items-center relative lg:max-w-[1440px] lg:w-full lg:h-[40vh] lg:gap-[173px] sm:gap-[50px] justify-center items-center"
+          class="md:flex md:text-center mx-auto md:max-w-[826px] sm:max-w-[327px] w-full md:h-[70vh] lg:text-start lg:flex-row sm:flex sm:flex-col md:flex-col sm:items-center relative lg:max-w-[1440px] lg:w-full lg:h-[40vh] lg:gap-[173px] sm:gap-[50px] justify-center items-center"
         >
           <div>
             <h1
