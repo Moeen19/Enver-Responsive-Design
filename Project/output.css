@@ -1280,6 +1280,10 @@ video {
     margin-top: 66px;
   }
 
+  .sm\:mb-\[30px\] {
+    margin-bottom: 30px;
+  }
+
   .sm\:flex {
     display: flex;
   }
@@ -1330,6 +1334,10 @@ video {
 
   .sm\:rounded-none {
     border-radius: 0px;
+  }
+
+  .sm\:text-center {
+    text-align: center;
   }
 
   .sm\:text-start {
