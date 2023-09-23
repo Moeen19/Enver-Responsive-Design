@@ -646,16 +646,12 @@ video {
   top: 10px;
 }
 
-.top-\[500px\] {
-  top: 500px;
+.right-\[221\] {
+  right: 221;
 }
 
-.right-\[300px\] {
-  right: 300px;
-}
-
-.top-\[-284px\] {
-  top: -284px;
+.right-\[221px\] {
+  right: 221px;
 }
 
 .mx-auto {
@@ -767,20 +763,12 @@ video {
   height: 666.74px;
 }
 
-.h-\[644\.721px\] {
-  height: 644.721px;
-}
-
 .h-\[800\.298px\] {
   height: 800.298px;
 }
 
-.h-\[100vhpx\] {
-  height: 100vhpx;
-}
-
-.h-\[100vh\] {
-  height: 100vh;
+.h-\[40vh\] {
+  height: 40vh;
 }
 
 .h-\[70vh\] {
@@ -923,10 +911,6 @@ video {
   max-width: 467px;
 }
 
-.max-w-\[215\.168px\] {
-  max-width: 215.168px;
-}
-
 .rotate-\[-31\.418deg\] {
   --tw-rotate: -31.418deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -944,11 +928,6 @@ video {
 
 .rotate-\[-54\.374deg\] {
   --tw-rotate: -54.374deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.rotate-\[44\.85deg\] {
-  --tw-rotate: 44.85deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -1028,10 +1007,6 @@ video {
 
 .overflow-x-hidden {
   overflow-x: hidden;
-}
-
-.overflow-x-visible {
-  overflow-x: visible;
 }
 
 .rounded-\[14px\] {
@@ -1553,8 +1528,8 @@ video {
     font-size: 33px;
   }
 
-  .md\:text-\[35px\] {
-    font-size: 35px;
+  .md\:text-\[39px\] {
+    font-size: 39px;
   }
 
   .md\:text-\[41px\] {
@@ -1563,10 +1538,6 @@ video {
 
   .md\:text-\[45px\] {
     font-size: 45px;
-  }
-
-  .md\:text-\[39px\] {
-    font-size: 39px;
   }
 
   .md\:font-\[800\] {
@@ -1595,10 +1566,6 @@ video {
 
   .md\:tracking-\[-0\.657px\] {
     letter-spacing: -0.657px;
-  }
-
-  .md\:text-\[\] {
-    color: ;
   }
 }
 
